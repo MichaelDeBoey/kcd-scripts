@@ -132,7 +132,7 @@ const output = [
   },
 ]
 
-/** @returns {import("rollup").RollupOptions} */
+/** @returns {import('rollup').RollupOptions} */
 module.exports = {
   input: codeSplitting ? input : input[0],
   output,
